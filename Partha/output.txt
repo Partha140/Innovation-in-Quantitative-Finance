@@ -1,0 +1,52 @@
+--------------------------------------------------
+all the configuration data:
+Portfolio assets: ['LIT', 'KARS', 'EZA', 'CHIQ', 'FLN', 'PICK', 'GOEV', 'NVDA', 'STNE', 'MSFT', 'SMR']
+Number of assets: 11
+Confidence interval: 0.95
+Portfolio Size: 1000000
+trading horizon: 1 day
+Trading date: 2024-03-25 format: YYYY-MM-DD
+historical days: 520 days
+asset weighting: Equal
+--------------------------------------------------
+summary statistics of normal returns
+ count       520.000000
+mean          0.000441
+std           0.014195
+min          -0.041693
+25%          -0.005165
+50%           0.000000
+75%           0.005779
+max           0.073960
+kurtosis      2.599974
+skewness      0.506616
+dtype: float64
+summary statistics of log-normal returns
+ count       280.000000
+mean          0.000376
+std           0.017030
+min          -0.049288
+25%          -0.010854
+50%           0.000286
+75%           0.010304
+max           0.052769
+kurtosis      0.251335
+skewness      0.047895
+dtype: float64
+--------------------------------------------------
+the risk metrix:
+                              Metrix     rates        amount
+0                 Historical VaR(N)  0.026044  26044.496326
+1                Historical VaR(LN)  0.027081  27081.400668
+2                 Parametric VaR(N)  0.023790  23789.877087
+3                Parametric VaR(LN)  0.028387  28386.911117
+4    Historical TVaR(N)-integration  0.035058  35057.987893
+5   Historical TVaR(LN)-integration  0.035876  35875.682779
+6    Parametric TVaR(N)-integration  0.029721  29721.484483
+7   Parametric TVaR(LN)-integration  0.035503  35502.910888
+8        Historical TVaR(N)-formula -0.001380  -1380.060279
+9       Historical TVaR(LN)-formula -0.001491  -1491.184524
+10       Parametric TVaR(N)-formula -0.001982  -1981.889257
+11      Parametric TVaR(LN)-formula -0.002224  -2224.418216
+12                 Historical ES(N)  0.035037  35037.157965
+13                Historical ES(LN)  0.035845  35844.767282

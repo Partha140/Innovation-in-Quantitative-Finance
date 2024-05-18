@@ -1,0 +1,23 @@
+Risk tolerance: 0.95
+File path:
+Seed: 2024-03-10
+Capital: 1000000
+Historical days: 520
+Holding period: 1 
+Tickers:
+  - ETFs:
+      - LIT #Global X Lithium & Battery Tech ETF
+      - KARS #KraneShares Electric Vehicles and Future Mobility Index ETF
+      - CHIQ #Global X MSCI China Consumer Discretionary ETF
+      - FLN #First Trust Latin America AlphaDEX Fund
+      - PICK # iShares MSCI Global Metals & Mining Producers ETF
+  - Stocks:
+      - GOEV #Canoo Inc.
+      - NVDA # NVIDIA Corporation
+      - MSFT #Microsoft Corporation 
+      - SMR #NuScale Power Corporation
+      - MCD #MCDONALD'S CORP
+      - AAL #AMERICAN AIRLINES GROUP INC
+
+datetype: "%yyyy-%mm-%dd"
+weight: equal

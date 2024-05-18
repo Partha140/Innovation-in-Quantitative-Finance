@@ -1,0 +1,692 @@
+configurations:
+the assets: ['NWL', 'IBRX', 'BAC', 'ASC', 'ARKK', 'NFLX']
+first date of backtesting: 2023-09-01 00:00:00 and the last date: 2024-05-03 09:24:14.031682
+strategy: long-short both strategy: short sell is allowed
+rebalancing in every 5 days
+
+output1: Bollinger Bands
+daily portfolio decision by each asset using bollinger bands
+{Timestamp('2023-09-01 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    ASC      buy
+3   ARKK     sell
+4   NFLX     sell, Timestamp('2023-09-06 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-09-11 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-09-16 00:00:00'):   ticker decision
+0    NWL      buy
+1    BAC     sell
+2    ASC      buy
+3   ARKK      buy
+4   NFLX      buy, Timestamp('2023-09-21 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-09-26 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-10-01 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   NFLX      buy, Timestamp('2023-10-06 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-10-11 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    ASC     sell
+3   ARKK     sell
+4   NFLX      buy, Timestamp('2023-10-16 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-10-21 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-10-26 00:00:00'):   ticker decision
+0   IBRX     sell
+1    BAC      buy
+2    ASC     sell
+3   ARKK      buy, Timestamp('2023-10-31 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2023-11-05 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-11-10 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-11-15 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-11-20 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-11-25 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-11-30 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-12-05 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2023-12-10 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2023-12-15 00:00:00'):   ticker decision
+0    NWL     sell
+1    BAC     sell
+2    ASC      buy
+3   ARKK     sell, Timestamp('2023-12-20 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-12-25 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-12-30 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2024-01-04 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2024-01-09 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2024-01-14 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-01-19 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-01-24 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    ASC     sell
+3   NFLX     sell, Timestamp('2024-01-29 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-02-03 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2024-02-08 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   NFLX      buy, Timestamp('2024-02-13 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    ASC      buy
+3   ARKK     sell
+4   NFLX      buy, Timestamp('2024-02-18 00:00:00'):   ticker decision
+0   IBRX     sell
+1    BAC     sell
+2    ASC      buy
+3   ARKK     sell, Timestamp('2024-02-23 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-02-28 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-03-04 00:00:00'):   ticker decision
+0   IBRX     sell
+1    BAC     sell
+2    ASC     sell
+3   ARKK     sell
+4   NFLX     sell, Timestamp('2024-03-09 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2024-03-14 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-03-19 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-03-24 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-03-29 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2024-04-03 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2024-04-08 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-04-13 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2024-04-18 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2024-04-23 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    ASC      buy
+3   ARKK      buy
+4   NFLX      buy, Timestamp('2024-04-28 00:00:00'):   ticker decision
+0    BAC     sell
+1    ASC     sell
+2   NFLX      buy}
+portfolio returns in every rebalacing date by bollinger bands:
+         date   returns
+0  2023-09-01 -0.009182
+1  2023-09-06 -0.005231
+2  2023-09-11  0.009798
+3  2023-09-16 -0.005258
+4  2023-09-21 -0.009456
+5  2023-09-26 -0.002680
+6  2023-10-01 -0.011402
+7  2023-10-06  0.002988
+8  2023-10-11 -0.001446
+9  2023-10-16  0.004873
+10 2023-10-21  0.000522
+11 2023-10-26  0.056600
+12 2023-10-31 -0.014714
+13 2023-11-05  0.017248
+14 2023-11-10  0.007982
+15 2023-11-15  0.001642
+16 2023-11-20 -0.001036
+17 2023-11-25 -0.002366
+18 2023-11-30 -0.011977
+19 2023-12-05  0.004846
+20 2023-12-10  0.008410
+21 2023-12-15 -0.011381
+22 2023-12-20 -0.005527
+23 2023-12-25 -0.004300
+24 2023-12-30 -0.021494
+25 2024-01-04  0.009456
+26 2024-01-09  0.002873
+27 2024-01-14  0.006725
+28 2024-01-19  0.007727
+29 2024-01-24 -0.008805
+30 2024-01-29 -0.003711
+31 2024-02-03  0.000407
+32 2024-02-08 -0.000633
+33 2024-02-13  0.012496
+34 2024-02-18 -0.016262
+35 2024-02-23  0.028812
+36 2024-02-28 -0.004981
+37 2024-03-04 -0.004849
+38 2024-03-09 -0.003027
+39 2024-03-14 -0.004119
+40 2024-03-19 -0.008729
+41 2024-03-24 -0.003758
+42 2024-03-29 -0.002313
+43 2024-04-03 -0.001674
+44 2024-04-08  0.006915
+45 2024-04-13 -0.005445
+46 2024-04-18 -0.000118
+47 2024-04-23  0.032219
+48 2024-04-28  0.001386
+Cumulative Portfolio returns in Bollinger Bands: 3.47%
+--------------------------------------------------
+output2: Moving Average Convergence/Divergences
+daily portfolio decision by each asset using Moving Average Convergence/Divergences
+{Timestamp('2023-09-01 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-09-06 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-09-11 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-09-16 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-09-21 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2023-09-26 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-10-01 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-10-06 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-10-11 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-10-16 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2023-10-21 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2023-10-26 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2023-10-31 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2023-11-05 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-11-10 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-11-15 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-11-20 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-11-25 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-11-30 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2023-12-05 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2023-12-10 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2023-12-15 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2023-12-20 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2023-12-25 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2023-12-30 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-01-04 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-01-09 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-01-14 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-01-19 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-01-24 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-01-29 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2024-02-03 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX      buy, Timestamp('2024-02-08 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC      buy
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2024-02-13 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2024-02-18 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX      buy, Timestamp('2024-02-23 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-02-28 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-03-04 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-03-09 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK      buy
+5   NFLX     sell, Timestamp('2024-03-14 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-03-19 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-03-24 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-03-29 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX      buy
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-04-03 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-04-08 00:00:00'):   ticker decision
+0    NWL      buy
+1   IBRX     sell
+2    BAC     sell
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-04-13 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX      buy
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-04-18 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-04-23 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC     sell
+3    ASC     sell
+4   ARKK     sell
+5   NFLX     sell, Timestamp('2024-04-28 00:00:00'):   ticker decision
+0    NWL     sell
+1   IBRX     sell
+2    BAC      buy
+3    ASC      buy
+4   ARKK     sell
+5   NFLX     sell}
+portfolio returns in every rebalacing date by Moving Average Convergence/Divergences:
+         date   returns
+0  2023-09-01 -0.000019
+1  2023-09-06  0.011161
+2  2023-09-11 -0.009930
+3  2023-09-16 -0.000489
+4  2023-09-21  0.007085
+5  2023-09-26  0.004927
+6  2023-10-01  0.008063
+7  2023-10-06  0.002017
+8  2023-10-11  0.006710
+9  2023-10-16  0.004928
+10 2023-10-21  0.013590
+11 2023-10-26  0.027640
+12 2023-10-31  0.014714
+13 2023-11-05 -0.019055
+14 2023-11-10  0.003991
+15 2023-11-15  0.001142
+16 2023-11-20  0.001036
+17 2023-11-25  0.011951
+18 2023-11-30  0.007028
+19 2023-12-05 -0.004846
+20 2023-12-10  0.020688
+21 2023-12-15  0.003886
+22 2023-12-20  0.000520
+23 2023-12-25  0.004624
+24 2023-12-30  0.004188
+25 2024-01-04  0.000969
+26 2024-01-09  0.000882
+27 2024-01-14 -0.002054
+28 2024-01-19 -0.012097
+29 2024-01-24 -0.006730
+30 2024-01-29  0.006445
+31 2024-02-03 -0.001576
+32 2024-02-08 -0.004405
+33 2024-02-13 -0.007782
+34 2024-02-18 -0.009536
+35 2024-02-23 -0.026254
+36 2024-02-28 -0.000696
+37 2024-03-04 -0.005014
+38 2024-03-09  0.003027
+39 2024-03-14 -0.007436
+40 2024-03-19  0.008254
+41 2024-03-24  0.000850
+42 2024-03-29 -0.003947
+43 2024-04-03  0.001674
+44 2024-04-08 -0.003033
+45 2024-04-13  0.005445
+46 2024-04-18  0.000118
+47 2024-04-23 -0.026065
+48 2024-04-28  0.001047
+Cumulative Portfolio returns in Moving Average Convergence/Divergence: 3.59%
+--------------------------------------------------
+output3: Comparison
+comparison:
+                               Tool Name  Cumulative Return     Result
+0                        Bollinger Bands           0.034711  Effective
+1  Moving Average Convergence/Divergence           0.035920  Effective
